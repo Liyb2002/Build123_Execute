@@ -15,6 +15,7 @@ class parsed_program():
             self.data_directory = os.path.dirname(__file__)
 
         canvas_directory = os.path.join(self.data_directory, 'canvas')
+    
         os.makedirs(canvas_directory, exist_ok=True)
 
         self.canvas = None
@@ -160,4 +161,4 @@ def run(data_directory = None):
     
     return parsed_program_class.is_valid_parse()
 
-run()
+run(os.path.join(os.path.dirname(__file__), 'programs', 'data_0'))
