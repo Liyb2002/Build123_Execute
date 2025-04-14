@@ -1,0 +1,5393 @@
+[
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.0
+            ],
+            [
+                0.005,
+                0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 0,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 0
+            },
+            {
+                "type": "sketch",
+                "feature_id": 0
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.0
+            ],
+            [
+                -0.005,
+                0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 0,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 0
+            },
+            {
+                "type": "sketch",
+                "feature_id": 0
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.0
+            ],
+            [
+                0.005,
+                -0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 0,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 0
+            },
+            {
+                "type": "sketch",
+                "feature_id": 0
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.0
+            ],
+            [
+                0.005,
+                0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 0,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 0
+            },
+            {
+                "type": "sketch",
+                "feature_id": 0
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.0
+            ],
+            [
+                -0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.01
+            ],
+            [
+                0.005,
+                0.005,
+                0.0
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.01
+            ],
+            [
+                0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.0
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.7
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.01
+            ],
+            [
+                -0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.01
+            ],
+            [
+                0.005,
+                -0.005,
+                0.0
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            }
+        ],
+        "visibility_score": 0.2
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.01
+            ],
+            [
+                0.005,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.01
+            ],
+            [
+                0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 1,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 1
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 1
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                0.005,
+                0.0
+            ],
+            [
+                0.0,
+                -0.005,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                0.005,
+                0.01
+            ],
+            [
+                0.0,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 3
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.005
+            ],
+            [
+                0.005,
+                -0.005,
+                0.005
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 3
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.005
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                -0.005,
+                0.0
+            ],
+            [
+                0.0,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.005
+            ],
+            [
+                0.005,
+                0.005,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                0.005,
+                0.0
+            ],
+            [
+                0.0,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.005
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.7666666666666667
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.005
+            ],
+            [
+                0.005,
+                0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.01
+            ],
+            [
+                0.0,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "sketch",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.005
+            ],
+            [
+                0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "sketch",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                0.005,
+                0.005
+            ],
+            [
+                0.0,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.005
+            ],
+            [
+                0.0,
+                0.005,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 2
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.004999999888241291,
+                0.005,
+                0.004999999888241291
+            ],
+            [
+                -8.673617379884035e-19,
+                0.005,
+                0.009999999776482582
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 2,
+        "original_labels": [
+            {
+                "type": "sketch",
+                "feature_id": 2
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.004999999999999894,
+                0.01
+            ],
+            [
+                0.0,
+                -0.004999999999999894,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.004999999999999894,
+                0.005
+            ],
+            [
+                0.005,
+                -0.004999999999999894,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.36666666666666664
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                0.005,
+                0.005
+            ],
+            [
+                0.0,
+                -0.004999999999999894,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.1
+    },
+    {
+        "geometry": [
+            [
+                0.0,
+                -0.004999999999999894,
+                0.005
+            ],
+            [
+                0.0,
+                -0.004999999999999894,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.004999999999999894,
+                0.005
+            ],
+            [
+                0.0,
+                -0.004999999999999894,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.005
+            ],
+            [
+                0.005,
+                -0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.01
+            ],
+            [
+                -8.6736174e-19,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -8.6736174e-19,
+                0.005,
+                0.01
+            ],
+            [
+                -0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -8.6736174e-19,
+                -0.005,
+                0.01
+            ],
+            [
+                0.005,
+                -0.005,
+                0.005
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 3,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 3
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.0012500000000000002,
+                0.0
+            ],
+            [
+                -0.005,
+                0.0012500000000000002,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.0
+            ],
+            [
+                -0.005,
+                -0.0012500000000000002,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.0012500000000000002,
+                0.01
+            ],
+            [
+                0.005,
+                0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.0012500000000000002,
+                0.01
+            ],
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.008749999999999999
+            ],
+            [
+                0.005,
+                0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.0062499999999999995
+            ],
+            [
+                0.005,
+                0.005,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.26666666666666666
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.0012500000000000002,
+                0.0
+            ],
+            [
+                0.005,
+                0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.3333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.01
+            ],
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.2
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.23333333333333334
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.005,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.008749999999999999
+            ],
+            [
+                0.005,
+                0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.0062499999999999995
+            ],
+            [
+                0.005,
+                0.005,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.5
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.0012500000000000002,
+                0.01
+            ],
+            [
+                -0.005,
+                0.0012500000000000002,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.0012500000000000002,
+                0.0
+            ],
+            [
+                -0.005,
+                -0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.7333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.0012500000000000005,
+                0.005,
+                0.008749999999999999
+            ],
+            [
+                0.0012500000000000002,
+                -0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.1
+    },
+    {
+        "geometry": [
+            [
+                0.0037500000000000007,
+                -0.005,
+                0.0062499999999999995
+            ],
+            [
+                0.0037500000000000003,
+                0.005,
+                0.00625
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.1
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.0012500000000000002,
+                0.005
+            ],
+            [
+                -8.6736174e-19,
+                0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.005
+            ],
+            [
+                -8.6736174e-19,
+                -0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                0.0012500000000000005,
+                -0.005,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                0.0037500000000000003,
+                -0.005,
+                0.00625
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.0012500000000000002,
+                0.0
+            ],
+            [
+                0.005,
+                0.0012500000000000002,
+                0.005
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.005
+            ],
+            [
+                0.005,
+                -0.0012500000000000002,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                -8.6736174e-19,
+                0.0012500000000000002,
+                0.01
+            ],
+            [
+                -0.005,
+                0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -8.6736174e-19,
+                -0.0012500000000000002,
+                0.01
+            ],
+            [
+                -0.005,
+                -0.0012500000000000002,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.008749999999999999
+            ],
+            [
+                0.0012500000000000005,
+                0.005,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.0062499999999999995
+            ],
+            [
+                0.0037500000000000003,
+                0.005,
+                0.00625
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "section_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.008749999999999999
+            ],
+            [
+                0.005,
+                0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.26666666666666666
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                0.00125,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.00125,
+                0.008749999999999999
+            ],
+            [
+                0.005,
+                -0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.23333333333333334
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.00125,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.6666666666666666
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                0.005,
+                0.00125,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.06666666666666667
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                0.00125,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.00125,
+                0.0062499999999999995
+            ],
+            [
+                0.005,
+                -0.00125,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.0
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.9
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "circle_square_line",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "circle_square_line",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "circle_square_line",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.13333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 4
+            },
+            {
+                "type": "circle_square_line",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.5
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.0012499999720603228,
+                0.007499999832361937
+            ],
+            [
+                -0.005,
+                -0.001245243358425796,
+                0.007608945481479168
+            ],
+            [
+                -0.005,
+                -0.0012310094898566604,
+                0.007717061322182417
+            ],
+            [
+                -0.005,
+                -0.0012074067490175366,
+                0.007823525927960873
+            ],
+            [
+                -0.005,
+                -0.0011746148811653256,
+                0.007927527651190758
+            ],
+            [
+                -0.005,
+                -0.0011328833643347025,
+                0.008028276264667511
+            ],
+            [
+                -0.005,
+                -0.001082529779523611,
+                0.008125003427267075
+            ],
+            [
+                -0.005,
+                -0.0010239373659715056,
+                0.008216974325478077
+            ],
+            [
+                -0.005,
+                -0.0009575521107763052,
+                0.008303488604724407
+            ],
+            [
+                -0.005,
+                -0.0008838791982270777,
+                0.008383887819945812
+            ],
+            [
+                -0.005,
+                -0.0008034793427214026,
+                0.00845756009221077
+            ],
+            [
+                -0.005,
+                -0.0007169644813984632,
+                0.008523943834006786
+            ],
+            [
+                -0.005,
+                -0.0006249930011108518,
+                0.00858253613114357
+            ],
+            [
+                -0.005,
+                -0.0005282649071887136,
+                0.008632888086140156
+            ],
+            [
+                -0.005,
+                -0.00042751635191962123,
+                0.008674618788063526
+            ],
+            [
+                -0.005,
+                -0.00032351407571695745,
+                0.008707409724593163
+            ],
+            [
+                -0.005,
+                -0.00021704964456148446,
+                0.008731011301279068
+            ],
+            [
+                -0.005,
+                -0.0001089333018171601,
+                0.008745244704186916
+            ],
+            [
+                -0.005,
+                1.2091506462752477e-08,
+                0.008750000037252903
+            ],
+            [
+                -0.005,
+                0.00010895739251282066,
+                0.008745241910219193
+            ],
+            [
+                -0.005,
+                0.00021707345149479806,
+                0.00873100757598877
+            ],
+            [
+                -0.005,
+                0.0003235374460928142,
+                0.00870740320533514
+            ],
+            [
+                -0.005,
+                0.0004275390529073775,
+                0.008674610406160355
+            ],
+            [
+                -0.005,
+                0.0005282868514768779,
+                0.008632877841591835
+            ],
+            [
+                -0.005,
+                0.0006250139558687806,
+                0.0085825240239501
+            ],
+            [
+                -0.005,
+                0.0007169843302108347,
+                0.008523930795490742
+            ],
+            [
+                -0.005,
+                0.000803497910965234,
+                0.008457544259727001
+            ],
+            [
+                -0.005,
+                0.0008838963112793863,
+                0.00838387105613947
+            ],
+            [
+                -0.005,
+                0.0009575676522217691,
+                0.008303469978272915
+            ],
+            [
+                -0.005,
+                0.001023951219394803,
+                0.00821695476770401
+            ],
+            [
+                -0.005,
+                0.001082541886717081,
+                0.008124982938170433
+            ],
+            [
+                -0.005,
+                0.0011328934924677014,
+                0.00802825391292572
+            ],
+            [
+                -0.005,
+                0.0011746231466531754,
+                0.007927505299448967
+            ],
+            [
+                -0.005,
+                0.0012074130354449153,
+                0.007823502644896507
+            ],
+            [
+                -0.005,
+                0.0012310136808082461,
+                0.007717037573456764
+            ],
+            [
+                -0.005,
+                0.001245245453901589,
+                0.007608921267092228
+            ],
+            [
+                -0.005,
+                0.0012499999720603228,
+                0.007499975617974997
+            ],
+            [
+                -0.005,
+                0.0012452412629500031,
+                0.0073910304345190525
+            ],
+            [
+                -0.005,
+                0.0012310052989050746,
+                0.0072829145938158035
+            ],
+            [
+                -0.005,
+                0.001207400462590158,
+                0.007176450919359922
+            ],
+            [
+                -0.005,
+                0.001174606615677476,
+                0.007072449661791325
+            ],
+            [
+                -0.005,
+                0.0011328731197863817,
+                0.006971701979637146
+            ],
+            [
+                -0.005,
+                0.001082517672330141,
+                0.006874975748360157
+            ],
+            [
+                -0.005,
+                0.0010239235125482082,
+                0.006783005781471729
+            ],
+            [
+                -0.005,
+                0.0009575365693308413,
+                0.006696492899209261
+            ],
+            [
+                -0.005,
+                0.0008838620851747692,
+                0.006616095080971718
+            ],
+            [
+                -0.005,
+                0.0008034608326852322,
+                0.00654242467135191
+            ],
+            [
+                -0.005,
+                0.0007169446907937527,
+                0.0064760418608784676
+            ],
+            [
+                -0.005,
+                0.0006249721045605838,
+                0.0064174518920481205
+            ],
+            [
+                -0.005,
+                0.0005282430211082101,
+                0.006367101334035397
+            ],
+            [
+                -0.005,
+                0.0004274936218280345,
+                0.006325372960418463
+            ],
+            [
+                -0.005,
+                0.0003234907053411007,
+                0.006292583886533976
+            ],
+            [
+                -0.005,
+                0.00021702582307625562,
+                0.006268984172493219
+            ],
+            [
+                -0.005,
+                0.00010890921112149954,
+                0.006254753563553095
+            ],
+            [
+                -0.005,
+                -3.627451761190059e-08,
+                0.0062500000931322575
+            ],
+            [
+                -0.005,
+                -0.00010898148320848122,
+                0.00625475961714983
+            ],
+            [
+                -0.005,
+                -0.0002170972729800269,
+                0.006268996745347977
+            ],
+            [
+                -0.005,
+                -0.0003235607873648405,
+                0.006292602512985468
+            ],
+            [
+                -0.005,
+                -0.0004275617829989642,
+                0.00632539764046669
+            ],
+            [
+                -0.005,
+                -0.0005283087375573814,
+                0.006367132067680359
+            ],
+            [
+                -0.005,
+                -0.0006250349106267095,
+                0.0064174882136285305
+            ],
+            [
+                -0.005,
+                -0.0007170041208155453,
+                0.006476083304733038
+            ],
+            [
+                -0.005,
+                -0.0008035164210014045,
+                0.00654247123748064
+            ],
+            [
+                -0.005,
+                -0.0008839134243316948,
+                0.006616146303713322
+            ],
+            [
+                -0.005,
+                -0.000957583193667233,
+                0.0066965483129024506
+            ],
+            [
+                -0.005,
+                -0.0010239650728181005,
+                0.006783065386116505
+            ],
+            [
+                -0.005,
+                -0.0010825538774952292,
+                0.0068750386126339436
+            ],
+            [
+                -0.005,
+                -0.0011329037370160222,
+                0.006971768103539944
+            ],
+            [
+                -0.005,
+                -0.001174631412141025,
+                0.0070725176483392715
+            ],
+            [
+                -0.005,
+                -0.001207419321872294,
+                0.007176520768553019
+            ],
+            [
+                -0.005,
+                -0.001231017871759832,
+                0.007282986305654049
+            ],
+            [
+                -0.005,
+                -0.0012452475493773818,
+                0.007391102612018585
+            ],
+            [
+                -0.005,
+                -0.0012499999720603228,
+                0.007499999832361937
+            ]
+        ],
+        "type": "sketch",
+        "feature_id": 4,
+        "original_labels": [
+            {
+                "type": "sketch",
+                "feature_id": 4
+            }
+        ],
+        "visibility_score": 0.5666666666666667
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.008749999999999999
+            ],
+            [
+                -0.010000000000000002,
+                0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.010000000000000002,
+                -0.00125,
+                0.008749999999999999
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.010000000000000002,
+                0.00125,
+                0.008749999999999999
+            ],
+            [
+                -0.010000000000000002,
+                -0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.010000000000000002,
+                0.00125,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.010000000000000002,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.010000000000000002,
+                0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.010000000000000002,
+                -0.00125,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "extrude_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            },
+            {
+                "type": "extrude_line",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 0.03333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.010000000000000002,
+                -0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.010000000000000002,
+                -0.00125,
+                0.008749999999999999
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.010000000000000002,
+                0.00125,
+                0.0062499999999999995
+            ],
+            [
+                -0.010000000000000002,
+                -0.00125,
+                0.0062499999999999995
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 5
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.0,
+                0.00875
+            ],
+            [
+                -0.005,
+                0.00010894535,
+                0.008745244
+            ],
+            [
+                -0.005,
+                0.00021706155,
+                0.008731009
+            ],
+            [
+                -0.005,
+                0.00032352575,
+                0.008707407
+            ],
+            [
+                -0.005,
+                0.0004275277,
+                0.008674615
+            ],
+            [
+                -0.005,
+                0.00052827585,
+                0.008632883
+            ],
+            [
+                -0.005,
+                0.0006250035,
+                0.00858253
+            ],
+            [
+                -0.005,
+                0.0007169744,
+                0.008523937
+            ],
+            [
+                -0.005,
+                0.00080348866,
+                0.008457552
+            ],
+            [
+                -0.005,
+                0.00088388775,
+                0.008383879
+            ],
+            [
+                -0.005,
+                0.00095755985,
+                0.008303479
+            ],
+            [
+                -0.005,
+                0.0010239444,
+                0.008216964
+            ],
+            [
+                -0.005,
+                0.0010825358,
+                0.008124993
+            ],
+            [
+                -0.005,
+                0.0011328884,
+                0.008028265
+            ],
+            [
+                -0.005,
+                0.001174619,
+                0.0079275165
+            ],
+            [
+                -0.005,
+                0.0012074099,
+                0.007823514
+            ],
+            [
+                -0.005,
+                0.0012310116,
+                0.0077170497
+            ],
+            [
+                -0.005,
+                0.0012452444,
+                0.0076089334
+            ],
+            [
+                -0.005,
+                0.00125,
+                0.0074999877
+            ],
+            [
+                -0.005,
+                0.0012452423,
+                0.0073910425
+            ],
+            [
+                -0.005,
+                0.0012310074,
+                0.0072829267
+            ],
+            [
+                -0.005,
+                0.0012074036,
+                0.0071764626
+            ],
+            [
+                -0.005,
+                0.0011746107,
+                0.007072461
+            ],
+            [
+                -0.005,
+                0.0011328782,
+                0.006971713
+            ],
+            [
+                -0.005,
+                0.0010825237,
+                0.006874986
+            ],
+            [
+                -0.005,
+                0.0010239304,
+                0.0067830156
+            ],
+            [
+                -0.005,
+                0.0009575443,
+                0.006696502
+            ],
+            [
+                -0.005,
+                0.00088387064,
+                0.006616104
+            ],
+            [
+                -0.005,
+                0.0008034701,
+                0.0065424326
+            ],
+            [
+                -0.005,
+                0.0007169546,
+                0.006476049
+            ],
+            [
+                -0.005,
+                0.0006249825,
+                0.006417458
+            ],
+            [
+                -0.005,
+                0.00052825396,
+                0.0063671065
+            ],
+            [
+                -0.005,
+                0.00042750497,
+                0.0063253767
+            ],
+            [
+                -0.005,
+                0.0003235024,
+                0.006292587
+            ],
+            [
+                -0.005,
+                0.00021703773,
+                0.0062689865
+            ],
+            [
+                -0.005,
+                0.00010892126,
+                0.0062547545
+            ],
+            [
+                -0.005,
+                -2.4183013e-08,
+                0.00625
+            ],
+            [
+                -0.005,
+                -0.00010896944,
+                0.0062547587
+            ],
+            [
+                -0.005,
+                -0.00021708535,
+                0.006268995
+            ],
+            [
+                -0.005,
+                -0.00032354912,
+                0.0062925997
+            ],
+            [
+                -0.005,
+                -0.00042755043,
+                0.0063253934
+            ],
+            [
+                -0.005,
+                -0.0005282978,
+                0.006367127
+            ],
+            [
+                -0.005,
+                -0.00062502443,
+                0.006417482
+            ],
+            [
+                -0.005,
+                -0.0007169942,
+                0.0064760763
+            ],
+            [
+                -0.005,
+                -0.00080350717,
+                0.0065424633
+            ],
+            [
+                -0.005,
+                -0.00088390487,
+                0.006616138
+            ],
+            [
+                -0.005,
+                -0.0009575754,
+                0.006696539
+            ],
+            [
+                -0.005,
+                -0.0010239582,
+                0.006783055
+            ],
+            [
+                -0.005,
+                -0.0010825478,
+                0.006875028
+            ],
+            [
+                -0.005,
+                -0.0011328986,
+                0.006971757
+            ],
+            [
+                -0.005,
+                -0.0011746272,
+                0.0070725065
+            ],
+            [
+                -0.005,
+                -0.0012074162,
+                0.007176509
+            ],
+            [
+                -0.005,
+                -0.0012310158,
+                0.007282974
+            ],
+            [
+                -0.005,
+                -0.0012452465,
+                0.007391091
+            ],
+            [
+                -0.005,
+                -0.00125,
+                0.007500036
+            ],
+            [
+                -0.005,
+                -0.0012452401,
+                0.0076089813
+            ],
+            [
+                -0.005,
+                -0.0012310032,
+                0.007717097
+            ],
+            [
+                -0.005,
+                -0.0012073973,
+                0.00782356
+            ],
+            [
+                -0.005,
+                -0.0011746024,
+                0.007927562
+            ],
+            [
+                -0.005,
+                -0.001132868,
+                0.008028309
+            ],
+            [
+                -0.005,
+                -0.0010825116,
+                0.008125035
+            ],
+            [
+                -0.005,
+                -0.0010239165,
+                0.008217004
+            ],
+            [
+                -0.005,
+                -0.00095752877,
+                0.008303517
+            ],
+            [
+                -0.005,
+                -0.0008838535,
+                0.008383913
+            ],
+            [
+                -0.005,
+                -0.0008034516,
+                0.008457583
+            ],
+            [
+                -0.005,
+                -0.0007169348,
+                0.008523965
+            ],
+            [
+                -0.005,
+                -0.0006249616,
+                0.008582554
+            ],
+            [
+                -0.005,
+                -0.000528232,
+                0.008632904
+            ],
+            [
+                -0.005,
+                -0.00042748224,
+                0.008674632
+            ],
+            [
+                -0.005,
+                -0.00032347903,
+                0.008707419
+            ],
+            [
+                -0.005,
+                -0.00021701392,
+                0.008731018
+            ],
+            [
+                -0.005,
+                -0.00010889716,
+                0.0087452475
+            ],
+            [
+                -0.005,
+                0.0,
+                0.00875
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 5
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.6333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.01,
+                0.0,
+                0.00875
+            ],
+            [
+                -0.01,
+                0.00010894535,
+                0.008745244
+            ],
+            [
+                -0.01,
+                0.00021706155,
+                0.008731009
+            ],
+            [
+                -0.01,
+                0.00032352575,
+                0.008707407
+            ],
+            [
+                -0.01,
+                0.0004275277,
+                0.008674615
+            ],
+            [
+                -0.01,
+                0.00052827585,
+                0.008632883
+            ],
+            [
+                -0.01,
+                0.0006250035,
+                0.00858253
+            ],
+            [
+                -0.01,
+                0.0007169744,
+                0.008523937
+            ],
+            [
+                -0.01,
+                0.00080348866,
+                0.008457552
+            ],
+            [
+                -0.01,
+                0.00088388775,
+                0.008383879
+            ],
+            [
+                -0.01,
+                0.00095755985,
+                0.008303479
+            ],
+            [
+                -0.01,
+                0.0010239444,
+                0.008216964
+            ],
+            [
+                -0.01,
+                0.0010825358,
+                0.008124993
+            ],
+            [
+                -0.01,
+                0.0011328884,
+                0.008028265
+            ],
+            [
+                -0.01,
+                0.001174619,
+                0.0079275165
+            ],
+            [
+                -0.01,
+                0.0012074099,
+                0.007823514
+            ],
+            [
+                -0.01,
+                0.0012310116,
+                0.0077170497
+            ],
+            [
+                -0.01,
+                0.0012452444,
+                0.0076089334
+            ],
+            [
+                -0.01,
+                0.00125,
+                0.0074999877
+            ],
+            [
+                -0.01,
+                0.0012452423,
+                0.0073910425
+            ],
+            [
+                -0.01,
+                0.0012310074,
+                0.0072829267
+            ],
+            [
+                -0.01,
+                0.0012074036,
+                0.0071764626
+            ],
+            [
+                -0.01,
+                0.0011746107,
+                0.007072461
+            ],
+            [
+                -0.01,
+                0.0011328782,
+                0.006971713
+            ],
+            [
+                -0.01,
+                0.0010825237,
+                0.006874986
+            ],
+            [
+                -0.01,
+                0.0010239304,
+                0.0067830156
+            ],
+            [
+                -0.01,
+                0.0009575443,
+                0.006696502
+            ],
+            [
+                -0.01,
+                0.00088387064,
+                0.006616104
+            ],
+            [
+                -0.01,
+                0.0008034701,
+                0.0065424326
+            ],
+            [
+                -0.01,
+                0.0007169546,
+                0.006476049
+            ],
+            [
+                -0.01,
+                0.0006249825,
+                0.006417458
+            ],
+            [
+                -0.01,
+                0.00052825396,
+                0.0063671065
+            ],
+            [
+                -0.01,
+                0.00042750497,
+                0.0063253767
+            ],
+            [
+                -0.01,
+                0.0003235024,
+                0.006292587
+            ],
+            [
+                -0.01,
+                0.00021703773,
+                0.0062689865
+            ],
+            [
+                -0.01,
+                0.00010892126,
+                0.0062547545
+            ],
+            [
+                -0.01,
+                -2.4183013e-08,
+                0.00625
+            ],
+            [
+                -0.01,
+                -0.00010896944,
+                0.0062547587
+            ],
+            [
+                -0.01,
+                -0.00021708535,
+                0.006268995
+            ],
+            [
+                -0.01,
+                -0.00032354912,
+                0.0062925997
+            ],
+            [
+                -0.01,
+                -0.00042755043,
+                0.0063253934
+            ],
+            [
+                -0.01,
+                -0.0005282978,
+                0.006367127
+            ],
+            [
+                -0.01,
+                -0.00062502443,
+                0.006417482
+            ],
+            [
+                -0.01,
+                -0.0007169942,
+                0.0064760763
+            ],
+            [
+                -0.01,
+                -0.00080350717,
+                0.0065424633
+            ],
+            [
+                -0.01,
+                -0.00088390487,
+                0.006616138
+            ],
+            [
+                -0.01,
+                -0.0009575754,
+                0.006696539
+            ],
+            [
+                -0.01,
+                -0.0010239582,
+                0.006783055
+            ],
+            [
+                -0.01,
+                -0.0010825478,
+                0.006875028
+            ],
+            [
+                -0.01,
+                -0.0011328986,
+                0.006971757
+            ],
+            [
+                -0.01,
+                -0.0011746272,
+                0.0070725065
+            ],
+            [
+                -0.01,
+                -0.0012074162,
+                0.007176509
+            ],
+            [
+                -0.01,
+                -0.0012310158,
+                0.007282974
+            ],
+            [
+                -0.01,
+                -0.0012452465,
+                0.007391091
+            ],
+            [
+                -0.01,
+                -0.00125,
+                0.007500036
+            ],
+            [
+                -0.01,
+                -0.0012452401,
+                0.0076089813
+            ],
+            [
+                -0.01,
+                -0.0012310032,
+                0.007717097
+            ],
+            [
+                -0.01,
+                -0.0012073973,
+                0.00782356
+            ],
+            [
+                -0.01,
+                -0.0011746024,
+                0.007927562
+            ],
+            [
+                -0.01,
+                -0.001132868,
+                0.008028309
+            ],
+            [
+                -0.01,
+                -0.0010825116,
+                0.008125035
+            ],
+            [
+                -0.01,
+                -0.0010239165,
+                0.008217004
+            ],
+            [
+                -0.01,
+                -0.00095752877,
+                0.008303517
+            ],
+            [
+                -0.01,
+                -0.0008838535,
+                0.008383913
+            ],
+            [
+                -0.01,
+                -0.0008034516,
+                0.008457583
+            ],
+            [
+                -0.01,
+                -0.0007169348,
+                0.008523965
+            ],
+            [
+                -0.01,
+                -0.0006249616,
+                0.008582554
+            ],
+            [
+                -0.01,
+                -0.000528232,
+                0.008632904
+            ],
+            [
+                -0.01,
+                -0.00042748224,
+                0.008674632
+            ],
+            [
+                -0.01,
+                -0.00032347903,
+                0.008707419
+            ],
+            [
+                -0.01,
+                -0.00021701392,
+                0.008731018
+            ],
+            [
+                -0.01,
+                -0.00010889716,
+                0.0087452475
+            ],
+            [
+                -0.01,
+                0.0,
+                0.00875
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 5
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.01,
+                0.000690205,
+                0.00645901
+            ],
+            [
+                -0.00774443,
+                0.000675481,
+                0.00644963
+            ],
+            [
+                -0.005,
+                0.000659553,
+                0.00643948
+            ]
+        ],
+        "type": "silhouette_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "silhouette_line",
+                "feature_id": 5
+            },
+            {
+                "type": "silhouette_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.01,
+                -0.00058049,
+                0.0086057
+            ],
+            [
+                -0.00648594,
+                -0.000557017,
+                0.00861792
+            ],
+            [
+                -0.005,
+                -0.000548226,
+                0.00862249
+            ]
+        ],
+        "type": "silhouette_line",
+        "feature_id": 5,
+        "original_labels": [
+            {
+                "type": "silhouette_line",
+                "feature_id": 5
+            },
+            {
+                "type": "silhouette_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.0043679015,
+                0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                0.005,
+                0.009367902
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.0043679015,
+                0.005,
+                0.009367902
+            ],
+            [
+                -0.0043679015,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.0043679015,
+                -0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.009367902
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 0.5333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.0043679015,
+                -0.005,
+                0.009367902
+            ],
+            [
+                -0.0043679015,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 0.43333333333333335
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                -0.005,
+                0.009814863
+            ],
+            [
+                -8.6736174e-19,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 0.9
+    },
+    {
+        "geometry": [
+            [
+                -7.668638999999914e-05,
+                -0.005,
+                0.009814863
+            ],
+            [
+                0.00018513737,
+                -0.005,
+                0.009814863
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                -7.668638999999914e-05,
+                -0.005,
+                0.009814863
+            ],
+            [
+                -0.00026182376,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 0.9
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                0.005,
+                0.009814863
+            ],
+            [
+                -8.6736174e-19,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -7.668638999999914e-05,
+                0.005,
+                0.009814863
+            ],
+            [
+                0.00018513737,
+                0.005,
+                0.009814863
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -7.668638999999914e-05,
+                0.005,
+                0.009814863
+            ],
+            [
+                -0.00026182376,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            },
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.01
+            ],
+            [
+                -0.0043679015,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.01
+            ],
+            [
+                -0.0043679015,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -8.6736174e-19,
+                -0.005,
+                0.01
+            ],
+            [
+                -0.00026182376,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -8.6736174e-19,
+                0.005,
+                0.01
+            ],
+            [
+                -0.00026182376,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "grid_lines",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "grid_lines",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.009367902
+            ],
+            [
+                -0.004997841063152777,
+                0.005,
+                0.009420100239114371
+            ],
+            [
+                -0.004991379000338906,
+                0.005,
+                0.009471941911327272
+            ],
+            [
+                -0.004980657953999852,
+                0.005,
+                0.009523072885450725
+            ],
+            [
+                -0.004965751159753108,
+                0.005,
+                0.009573143885085343
+            ],
+            [
+                -0.004946760446118672,
+                0.005,
+                0.009621812874532292
+            ],
+            [
+                -0.004923815538926995,
+                0.005,
+                0.009668747395243949
+            ],
+            [
+                -0.004897073175160027,
+                0.005,
+                0.00971362683685287
+            ],
+            [
+                -0.004866716032278696,
+                0.005,
+                0.009756144627265715
+            ],
+            [
+                -0.004832951480350621,
+                0.005,
+                0.009796010326861488
+            ],
+            [
+                -0.004796010165502273,
+                0.005,
+                0.009832951612488665
+            ],
+            [
+                -0.00475614443437207,
+                0.005,
+                0.009866716137708441
+            ],
+            [
+                -0.004713626610326949,
+                0.005,
+                0.009897073256576789
+            ],
+            [
+                -0.004668747133217644,
+                0.005,
+                0.00992381559919012
+            ],
+            [
+                -0.004621812575380005,
+                0.005,
+                0.00994676048823201
+            ],
+            [
+                -0.0045731435474350764,
+                0.005,
+                0.009965751186844488
+            ],
+            [
+                -0.004523072508193469,
+                0.005,
+                0.009980657969299719
+            ],
+            [
+                -0.004471941493624567,
+                0.005,
+                0.009991379007158255
+            ],
+            [
+                -0.004420099780404043,
+                0.005,
+                0.00999784106486053
+            ],
+            [
+                -0.0043679015,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "fillet_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "fillet_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.009367902
+            ],
+            [
+                -0.004997841063152777,
+                -0.005,
+                0.009420100239114371
+            ],
+            [
+                -0.004991379000338906,
+                -0.005,
+                0.009471941911327272
+            ],
+            [
+                -0.004980657953999852,
+                -0.005,
+                0.009523072885450725
+            ],
+            [
+                -0.004965751159753108,
+                -0.005,
+                0.009573143885085343
+            ],
+            [
+                -0.004946760446118672,
+                -0.005,
+                0.009621812874532292
+            ],
+            [
+                -0.004923815538926995,
+                -0.005,
+                0.009668747395243949
+            ],
+            [
+                -0.004897073175160027,
+                -0.005,
+                0.00971362683685287
+            ],
+            [
+                -0.004866716032278696,
+                -0.005,
+                0.009756144627265715
+            ],
+            [
+                -0.004832951480350621,
+                -0.005,
+                0.009796010326861488
+            ],
+            [
+                -0.004796010165502273,
+                -0.005,
+                0.009832951612488665
+            ],
+            [
+                -0.00475614443437207,
+                -0.005,
+                0.009866716137708441
+            ],
+            [
+                -0.004713626610326949,
+                -0.005,
+                0.009897073256576789
+            ],
+            [
+                -0.004668747133217644,
+                -0.005,
+                0.00992381559919012
+            ],
+            [
+                -0.004621812575380005,
+                -0.005,
+                0.00994676048823201
+            ],
+            [
+                -0.0045731435474350764,
+                -0.005,
+                0.009965751186844488
+            ],
+            [
+                -0.004523072508193469,
+                -0.005,
+                0.009980657969299719
+            ],
+            [
+                -0.004471941493624567,
+                -0.005,
+                0.009991379007158255
+            ],
+            [
+                -0.004420099780404043,
+                -0.005,
+                0.00999784106486053
+            ],
+            [
+                -0.0043679015,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "fillet_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "fillet_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                -0.005,
+                0.009814863
+            ],
+            [
+                0.00016895458627963093,
+                -0.005,
+                0.009830151492282712
+            ],
+            [
+                0.0001510938256145988,
+                -0.005,
+                0.009845335548660804
+            ],
+            [
+                0.00013167709511081887,
+                -0.005,
+                0.009860311446632786
+            ],
+            [
+                0.0001108370307259376,
+                -0.005,
+                0.009874976885630148
+            ],
+            [
+                8.871599123125115e-05,
+                -0.005,
+                0.009889231685833976
+            ],
+            [
+                6.546508575694709e-05,
+                -0.005,
+                0.009902978472504705
+            ],
+            [
+                4.1243141563522946e-05,
+                -0.005,
+                0.009916123341150312
+            ],
+            [
+                1.6215619090548025e-05,
+                -0.005,
+                0.009928576498989226
+            ],
+            [
+                -9.446518305913221e-06,
+                -0.005,
+                0.009940252878326075
+            ],
+            [
+                -3.556797220637803e-05,
+                -0.005,
+                0.009951072717650292
+            ],
+            [
+                -6.197030659390036e-05,
+                -0.005,
+                0.00996096210648812
+            ],
+            [
+                -8.847316675299863e-05,
+                -0.005,
+                0.00996985349028609
+            ],
+            [
+                -0.00011489551127523957,
+                -0.005,
+                0.009977686131877116
+            ],
+            [
+                -0.00014105684875563134,
+                -0.005,
+                0.009984406526376938
+            ],
+            [
+                -0.0001667784707319356,
+                -0.005,
+                0.009989968766676731
+            ],
+            [
+                -0.0001918846724446727,
+                -0.005,
+                0.00999433485703521
+            ],
+            [
+                -0.0002162039530787909,
+                -0.005,
+                0.00999747497262807
+            ],
+            [
+                -0.00023957018728813328,
+                -0.005,
+                0.009999367663281775
+            ],
+            [
+                -0.00026182376,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "fillet_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "fillet_line",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 0.9333333333333333
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                0.005,
+                0.009814863
+            ],
+            [
+                0.00016895458627963093,
+                0.005,
+                0.009830151492282712
+            ],
+            [
+                0.0001510938256145988,
+                0.005,
+                0.009845335548660804
+            ],
+            [
+                0.00013167709511081887,
+                0.005,
+                0.009860311446632786
+            ],
+            [
+                0.0001108370307259376,
+                0.005,
+                0.009874976885630148
+            ],
+            [
+                8.871599123125115e-05,
+                0.005,
+                0.009889231685833976
+            ],
+            [
+                6.546508575694709e-05,
+                0.005,
+                0.009902978472504705
+            ],
+            [
+                4.1243141563522946e-05,
+                0.005,
+                0.009916123341150312
+            ],
+            [
+                1.6215619090548025e-05,
+                0.005,
+                0.009928576498989226
+            ],
+            [
+                -9.446518305913221e-06,
+                0.005,
+                0.009940252878326075
+            ],
+            [
+                -3.556797220637803e-05,
+                0.005,
+                0.009951072717650292
+            ],
+            [
+                -6.197030659390036e-05,
+                0.005,
+                0.00996096210648812
+            ],
+            [
+                -8.847316675299863e-05,
+                0.005,
+                0.00996985349028609
+            ],
+            [
+                -0.00011489551127523957,
+                0.005,
+                0.009977686131877116
+            ],
+            [
+                -0.00014105684875563134,
+                0.005,
+                0.009984406526376938
+            ],
+            [
+                -0.0001667784707319356,
+                0.005,
+                0.009989968766676731
+            ],
+            [
+                -0.0001918846724446727,
+                0.005,
+                0.00999433485703521
+            ],
+            [
+                -0.0002162039530787909,
+                0.005,
+                0.00999747497262807
+            ],
+            [
+                -0.00023957018728813328,
+                0.005,
+                0.009999367663281775
+            ],
+            [
+                -0.00026182376,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "fillet_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "fillet_line",
+                "feature_id": 6
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                -0.005,
+                0.009814863
+            ],
+            [
+                0.00018513737,
+                0.005,
+                0.009814863
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.7
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                0.005,
+                0.009814863
+            ],
+            [
+                0.00014448339,
+                0.005,
+                0.009852115
+            ],
+            [
+                0.000100734986,
+                0.005,
+                0.009885685
+            ],
+            [
+                5.4227246e-05,
+                0.005,
+                0.009915314
+            ],
+            [
+                5.3141375e-06,
+                0.005,
+                0.009940777
+            ],
+            [
+                -4.5632078e-05,
+                0.005,
+                0.009961879
+            ],
+            [
+                -9.822366e-05,
+                0.005,
+                0.009978461
+            ],
+            [
+                -0.00015206035,
+                0.005,
+                0.009990397
+            ],
+            [
+                -0.00020673242,
+                0.005,
+                0.009997595
+            ],
+            [
+                -0.00026182376,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.009367902
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.00026182376,
+                -0.005,
+                0.01
+            ],
+            [
+                -0.00020673547,
+                -0.005,
+                0.009997595
+            ],
+            [
+                -0.00015206337,
+                -0.005,
+                0.009990398
+            ],
+            [
+                -9.8226614e-05,
+                -0.005,
+                0.009978462
+            ],
+            [
+                -4.5634948e-05,
+                -0.005,
+                0.009961881
+            ],
+            [
+                5.3113667e-06,
+                -0.005,
+                0.009940778
+            ],
+            [
+                5.4224598e-05,
+                -0.005,
+                0.009915316
+            ],
+            [
+                0.00010073248,
+                -0.005,
+                0.009885686
+            ],
+            [
+                0.00014448106,
+                -0.005,
+                0.009852117
+            ],
+            [
+                0.00018513737,
+                -0.005,
+                0.009814863
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.9333333333333333
+    },
+    {
+        "geometry": [
+            [
+                -0.0043679015,
+                0.005,
+                0.01
+            ],
+            [
+                -0.0043679015,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.00026182376,
+                -0.005,
+                0.01
+            ],
+            [
+                -0.00026182376,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.005,
+                -0.005,
+                0.009367902
+            ],
+            [
+                -0.005,
+                -0.005,
+                0.0
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.6666666666666666
+    },
+    {
+        "geometry": [
+            [
+                -0.0043679015,
+                -0.005,
+                0.01
+            ],
+            [
+                -0.00026182376,
+                -0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                -0.00026182376,
+                0.005,
+                0.01
+            ],
+            [
+                -0.0043679015,
+                0.005,
+                0.01
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                0.00018513737,
+                -0.005,
+                0.009814863
+            ],
+            [
+                0.005,
+                -0.005,
+                0.005
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 0.0
+    },
+    {
+        "geometry": [
+            [
+                0.005,
+                0.005,
+                0.005
+            ],
+            [
+                0.00018513737,
+                0.005,
+                0.009814863
+            ]
+        ],
+        "type": "feature_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "feature_line",
+                "feature_id": 6
+            },
+            {
+                "type": "feature_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    },
+    {
+        "geometry": [
+            [
+                8.33716e-05,
+                -0.005,
+                0.00989675
+            ],
+            [
+                7.78198e-05,
+                -7.30724e-05,
+                0.00990028
+            ],
+            [
+                6.78822e-05,
+                0.005,
+                0.00990661
+            ]
+        ],
+        "type": "silhouette_line",
+        "feature_id": 6,
+        "original_labels": [
+            {
+                "type": "silhouette_line",
+                "feature_id": 6
+            },
+            {
+                "type": "silhouette_line",
+                "feature_id": 7
+            }
+        ],
+        "visibility_score": 1.0
+    }
+]

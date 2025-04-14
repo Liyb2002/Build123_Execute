@@ -1,0 +1,42 @@
+[
+    {
+        "operation": [
+            "sketch"
+        ]
+    },
+    {
+        "operation": [
+            "extrude"
+        ]
+    },
+    {
+        "operation": [
+            "sketch"
+        ]
+    },
+    {
+        "operation": [
+            "extrude"
+        ]
+    },
+    {
+        "operation": [
+            "sketch"
+        ]
+    },
+    {
+        "operation": [
+            "extrude"
+        ]
+    },
+    {
+        "operation": [
+            "fillet"
+        ]
+    },
+    {
+        "operation": [
+            "terminate"
+        ]
+    }
+]
