@@ -6,6 +6,8 @@ import os
 
 import helper
 import line_utils
+import perturb_strokes
+
 
 current_folder = Path.cwd().parent
 filename = current_folder / "file.step"
@@ -15,5 +17,11 @@ feature_lines = edge_features_list + cylinder_features_list
 projection_line = line_utils.projection_lines(feature_lines)
 bounding_box_line = line_utils.bounding_box_lines(feature_lines)
 
-brep_read.vis_stroke_node_features_and_constructions(np.array(edge_features_list + cylinder_features_list), np.array(projection_line + bounding_box_line))
+# brep_read.vis_stroke_node_features_and_constructions(np.array(edge_features_list + cylinder_features_list), np.array(projection_line + bounding_box_line))
+
+perturbed_lines = perturb_strokes.do_perturb(feature_lines)
+perturb_strokes.vis_perturbed_strokes(perturbed_lines)
+
 helper.save_strokes(current_folder, feature_lines, projection_line+bounding_box_line)
+
+
