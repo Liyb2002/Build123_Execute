@@ -13,5 +13,7 @@ edge_features_list, cylinder_features_list = brep_read.sample_strokes_from_step_
 feature_lines = edge_features_list + cylinder_features_list
 
 projection_line = line_utils.projection_lines(feature_lines)
-brep_read.vis_stroke_node_features(np.array(edge_features_list + cylinder_features_list + projection_line))
-helper.save_strokes(current_folder, feature_lines, [])
+bounding_box_line = line_utils.bounding_box_lines(feature_lines)
+
+brep_read.vis_stroke_node_features_and_constructions(np.array(edge_features_list + cylinder_features_list), np.array(projection_line + bounding_box_line))
+helper.save_strokes(current_folder, feature_lines, projection_line+bounding_box_line)

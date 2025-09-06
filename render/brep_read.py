@@ -1061,3 +1061,245 @@ def vis_cad_op(stroke_node_features, cad_correspondance, i):
 
     ax.set_xticks([]); ax.set_yticks([]); ax.set_zticks([])
     plt.show()
+
+
+
+
+
+def vis_stroke_node_features_and_constructions(stroke_node_features, construction_lines):
+    # Base drawing style to match your original
+    BASE_ALPHA = 1.0
+    BASE_LW = 0.5
+
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    ax.grid(False)
+    ax.axis('off')
+
+    # Overall bounds (shared across strokes + construction)
+    x_min, x_max = float('inf'), float('-inf')
+    y_min, y_max = float('inf'), float('-inf')
+    z_min, z_max = float('inf'), float('-inf')
+
+    def plot_strokes(strokes, alpha_scale=1.0, lw_scale=1.0):
+        nonlocal x_min, x_max, y_min, y_max, z_min, z_max
+
+        for stroke in strokes:
+            t = stroke[-1]
+
+            if t == 1:
+                # Straight line: [start(3), end(3), 0,0,0, 1]
+                start = np.array(stroke[0:3], dtype=float)
+                end   = np.array(stroke[3:6], dtype=float)
+
+                xs, ys, zs = [start[0], end[0]], [start[1], end[1]], [start[2], end[2]]
+
+                x_min, x_max = min(x_min, *xs), max(x_max, *xs)
+                y_min, y_max = min(y_min, *ys), max(y_max, *ys)
+                z_min, z_max = min(z_min, *zs), max(z_max, *zs)
+
+                ax.plot(xs, ys, zs, color='black',
+                        alpha=BASE_ALPHA * alpha_scale,
+                        linewidth=BASE_LW * lw_scale)
+                continue
+
+            if t == 2:
+                # Circle: [center(3), normal(3), 0, radius, 0, 2]
+                cx, cy, cz, nx, ny, nz, _, r, _ = (float(v) for v in stroke[:9])
+                center = np.array([cx, cy, cz])
+                normal = np.array([nx, ny, nz])
+                nlen = np.linalg.norm(normal)
+                if nlen < 1e-12: 
+                    continue
+                normal /= nlen
+
+                up = np.array([0.0, 0.0, 1.0]) if abs(normal[2]) < 0.99 else np.array([1.0, 0.0, 0.0])
+                xdir = np.cross(normal, up)
+                if np.linalg.norm(xdir) < 1e-12:
+                    up = np.array([0.0, 1.0, 0.0])
+                    xdir = np.cross(normal, up)
+                xdir /= np.linalg.norm(xdir)
+                ydir = np.cross(normal, xdir)
+
+                theta = np.linspace(0.0, 2.0*np.pi, 200)
+                pts = center[None, :] + r * (np.cos(theta)[:, None]*xdir + np.sin(theta)[:, None]*ydir)
+                x_values, y_values, z_values = pts[:,0], pts[:,1], pts[:,2]
+
+                # (By your convention, do NOT update bounds for circles)
+                ax.plot(x_values, y_values, z_values, color='black',
+                        alpha=BASE_ALPHA * alpha_scale,
+                        linewidth=BASE_LW * lw_scale)
+                continue
+
+            if t == 3:
+                # Cylinder side edges: [lower_center(3), upper_center(3), 0, r, 0, 3]
+                lx, ly, lz, ux, uy, uz, _zero0, r, _zero1 = (float(v) for v in stroke[:9])
+
+                L = np.array([lx, ly, lz]); U = np.array([ux, uy, uz])
+                axis_vec = U - L
+                h = np.linalg.norm(axis_vec)
+                if h < 1e-12 or r <= 0.0:
+                    continue
+
+                n = axis_vec / h
+                ref = np.array([0.0, 0.0, 1.0]) if abs(n[2]) < 0.99 else np.array([1.0, 0.0, 0.0])
+                xdir = np.cross(n, ref)
+                if np.linalg.norm(xdir) < 1e-12:
+                    ref = np.array([0.0, 1.0, 0.0])
+                    xdir = np.cross(n, ref)
+                xdir /= np.linalg.norm(xdir)
+                ydir = np.cross(n, xdir)
+
+                for ang in (0.0, 0.5*np.pi, np.pi, 1.5*np.pi):
+                    radial = np.cos(ang)*xdir + np.sin(ang)*ydir
+                    p_low = L + r * radial
+                    p_up  = U + r * radial
+
+                    ax.plot([p_low[0], p_up[0]],
+                            [p_low[1], p_up[1]],
+                            [p_low[2], p_up[2]],
+                            color='black',
+                            alpha=BASE_ALPHA * alpha_scale,
+                            linewidth=BASE_LW * lw_scale)
+
+                    x_min = min(x_min, p_low[0], p_up[0]); x_max = max(x_max, p_low[0], p_up[0])
+                    y_min = min(y_min, p_low[1], p_up[1]); y_max = max(y_max, p_low[1], p_up[1])
+                    z_min = min(z_min, p_low[2], p_up[2]); z_max = max(z_max, p_low[2], p_up[2])
+                continue
+
+            if t == 4:
+                # Arc: [sx,sy,sz, ex,ey,ez, cx,cy,cz, 4]
+                sx, sy, sz, ex, ey, ez, cx, cy, cz = (float(v) for v in stroke[:9])
+                S = np.array([sx, sy, sz])
+                E = np.array([ex, ey, ez])
+                C = np.array([cx, cy, cz])
+
+                vS = S - C; vE = E - C
+                rS = np.linalg.norm(vS); rE = np.linalg.norm(vE)
+                r = 0.5 * (rS + rE)
+                if r < 1e-12:
+                    continue
+
+                vS /= rS; vE /= rE
+                n = np.cross(vS, vE)
+                nlen = np.linalg.norm(n)
+                if nlen < 1e-12:
+                    ax.plot([sx, ex], [sy, ey], [sz, ez], color='black',
+                            alpha=BASE_ALPHA * alpha_scale,
+                            linewidth=BASE_LW * lw_scale)
+                    x_min, x_max = min(x_min, sx, ex), max(x_max, sx, ex)
+                    y_min, y_max = min(y_min, sy, ey), max(y_max, sy, ey)
+                    z_min, z_max = min(z_min, sz, ez), max(z_max, sz, ez)
+                    continue
+                n /= nlen
+
+                xdir = vS
+                ydir = np.cross(n, xdir)
+
+                cosang = np.clip(np.dot(vS, vE), -1.0, 1.0)
+                sweep = np.arccos(cosang)
+                if np.dot(n, np.cross(vS, vE)) < 0:
+                    sweep = -sweep
+
+                theta = np.linspace(0.0, sweep, 100)
+                pts = C + r*(np.cos(theta)[:,None]*xdir + np.sin(theta)[:,None]*ydir)
+                x_values, y_values, z_values = pts[:,0], pts[:,1], pts[:,2]
+
+                x_min, x_max = min(x_min, x_values.min()), max(x_max, x_values.max())
+                y_min, y_max = min(y_min, y_values.min()), max(y_max, y_values.max())
+                z_min, z_max = min(z_min, z_values.min()), max(z_max, z_values.max())
+
+                ax.plot(x_values, y_values, z_values, color='black',
+                        alpha=BASE_ALPHA * alpha_scale,
+                        linewidth=BASE_LW * lw_scale)
+                continue
+
+            if t == 5:
+                # Quadratic Bézier spline: [p0(3), p1(3), p2(3), 5]
+                p0 = np.array(stroke[0:3], dtype=float)
+                p1 = np.array(stroke[3:6], dtype=float)
+                p2 = np.array(stroke[6:9], dtype=float)
+
+                tvals = np.linspace(0.0, 1.0, 100)
+                omt = 1.0 - tvals
+                bx = (omt**2) * p0[0] + 2*omt*tvals * p1[0] + (tvals**2) * p2[0]
+                by = (omt**2) * p0[1] + 2*omt*tvals * p1[1] + (tvals**2) * p2[1]
+                bz = (omt**2) * p0[2] + 2*omt*tvals * p1[2] + (tvals**2) * p2[2]
+
+                x_min, x_max = min(x_min, bx.min()), max(x_max, bx.max())
+                y_min, y_max = min(y_min, by.min()), max(y_max, by.max())
+                z_min, z_max = min(z_min, bz.min()), max(z_max, bz.max())
+
+                ax.plot(bx, by, bz, color='black',
+                        alpha=BASE_ALPHA * alpha_scale,
+                        linewidth=BASE_LW * lw_scale)
+                continue
+
+            if t == 6:
+                # Sphere guide circles: [cx,cy,cz, nx,ny,nz, 0, r, 0, 6]
+                cx, cy, cz, nx, ny, nz, _, r, _ = (float(v) for v in stroke[:9])
+                C = np.array([cx, cy, cz], dtype=float)
+                n = np.array([nx, ny, nz], dtype=float)
+                nlen = np.linalg.norm(n)
+                if nlen < 1e-12:
+                    continue
+                n /= nlen
+
+                ref = np.array([0.0, 0.0, 1.0]) if abs(n[2]) < 0.99 else np.array([1.0, 0.0, 0.0])
+                xdir = np.cross(n, ref)
+                if np.linalg.norm(xdir) < 1e-12:
+                    ref = np.array([0.0, 1.0, 0.0])
+                    xdir = np.cross(n, ref)
+                xdir /= np.linalg.norm(xdir)
+                ydir = np.cross(n, xdir)
+
+                normals = [
+                    n,
+                    xdir,
+                    ydir,
+                    (xdir + ydir) / np.linalg.norm(xdir + ydir)
+                ]
+
+                theta = np.linspace(0.0, 2.0*np.pi, 200)
+                c, s = np.cos(theta), np.sin(theta)
+
+                for pn in normals:
+                    ref2 = np.array([0.0, 0.0, 1.0]) if abs(pn[2]) < 0.99 else np.array([1.0, 0.0, 0.0])
+                    u = np.cross(pn, ref2)
+                    if np.linalg.norm(u) < 1e-12:
+                        ref2 = np.array([0.0, 1.0, 0.0])
+                        u = np.cross(pn, ref2)
+                    u /= np.linalg.norm(u)
+                    v = np.cross(pn, u)
+
+                    pts = C[None, :] + r * (c[:, None]*u[None, :] + s[:, None]*v[None, :])
+                    x, y, z = pts[:, 0], pts[:, 1], pts[:, 2]
+
+                    x_min = min(x_min, x.min()); x_max = max(x_max, x.max())
+                    y_min = min(y_min, y.min()); y_max = max(y_max, y.max())
+                    z_min = min(z_min, z.min()); z_max = max(z_max, z.max())
+
+                    ax.plot(x, y, z, color='black',
+                            alpha=BASE_ALPHA * alpha_scale,
+                            linewidth=BASE_LW * lw_scale)
+
+    # 1) Draw primary strokes (same as your function)
+    plot_strokes(stroke_node_features, alpha_scale=1.0, lw_scale=1.0)
+
+    # 2) Overlay construction lines with half alpha and 0.6 thickness
+    plot_strokes(construction_lines, alpha_scale=0.5, lw_scale=0.6)
+
+    # Frame to fit everything we drew
+    x_center = (x_min + x_max) / 2.0
+    y_center = (y_min + y_max) / 2.0
+    z_center = (z_min + z_max) / 2.0
+    max_diff = max(x_max - x_min, y_max - y_min, z_max - z_min)
+    if not np.isfinite(max_diff) or max_diff <= 0:
+        max_diff = 1.0  # fallback to avoid invalid limits
+
+    ax.set_xlim([x_center - max_diff/2, x_center + max_diff/2])
+    ax.set_ylim([y_center - max_diff/2, y_center + max_diff/2])
+    ax.set_zlim([z_center - max_diff/2, z_center + max_diff/2])
+
+    ax.set_xticks([]); ax.set_yticks([]); ax.set_zticks([])
+    plt.show()
